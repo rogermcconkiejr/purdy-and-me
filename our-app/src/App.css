@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lobster&display=swap');
+
 .App {
   text-align: center;
 }
@@ -26,6 +28,23 @@
 
 .App-link {
   color: #61dafb;
+}
+
+h1 {
+  font-family: 'Cabin';
+}
+
+.counter {
+  font-family: 'Cabin';
+}
+
+.item-button {
+  font-family: 'Lobster';
+}
+
+.center_div{
+  margin: 0 auto;
+  width:80% /* value of your choice which suits your alignment */
 }
 
 @keyframes App-logo-spin {
