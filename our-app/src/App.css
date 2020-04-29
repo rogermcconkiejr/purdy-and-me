@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lobster&family=Noto+Sans+KR:wght@700&display=swap');
 
 .App {
   text-align: center;
@@ -31,7 +31,7 @@
 }
 
 h1 {
-  font-family: 'Cabin';
+  font-family: 'Noto Sans KR';
 }
 
 .counter {

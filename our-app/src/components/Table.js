@@ -8,19 +8,17 @@ class Table extends Component {
         this.state = {
         }
     }
-
-    removeTodo = (i) => {
-        this.props.removeTodo(i)
-    }
+    
     render() {
         return (
-                <div className='container'>
-                    <ul className="list-group">
-                        {this.props.items.map((item, index) => <Row handleClick={this.removeTodo} name={item} index={index}/>)}
-                    </ul>
-                </div>
+            <div className='container'>
+                <ul className="list-group">
+                    {this.props.children}
+                </ul>
+            </div>
         )
     }
 }
+
 
 export default Table
